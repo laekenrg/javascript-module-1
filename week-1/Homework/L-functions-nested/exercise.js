@@ -1,36 +1,27 @@
-function mentores(mentor1, mentor2, mentor3, mentor4, mentor5) {
-  return (
-    mentor1.toUpperCase() +
-    mentor2.toUpperCase() +
-    mentor3.toUpperCase() +
-    mentor4.toUpperCase() +
-    mentor5.toUpperCase()
-  );
-}
-function saludoCompleto(saludo, mentor1, mentor2, mentor3, mentor4, mentor5) {
-  return (
-    saludo.toUpperCase() +
-    " " +
-    mentor1.toUpperCase() +
-    "\n" +
-    saludo.toUpperCase() +
-    " " +
-    mentor2.toUpperCase() +
-    "\n" +
-    saludo.toUpperCase() +
-    " " +
-    mentor3.toUpperCase() +
-    "\n" +
-    saludo.toUpperCase() +
-    " " +
-    mentor4.toUpperCase() +
-    "\n" +
-    saludo.toUpperCase() +
-    " " +
-    mentor5.toUpperCase()
-  );
-}
+var mentor1 ="Daniel" 
+var mentor2 ="Irina" 
+var mentor3 ="Mimi" 
+var mentor4 ="Rob" 
+var mentor5 ="Yohannes" 
 
-console.log(
-  saludoCompleto("Hola", "Daniel", "Irina", "Mimi", "Rob", "Yohannes")
-);
+function mentores(mentor) {
+  const UpperCaseNames = mentor.toUpperCase()
+  ;
+    return UpperCaseNames 
+  ;
+}
+ /*console.log(mentores(mentor1));
+ console.log(mentores(mentor2));
+ console.log(mentores(mentor3));
+ console.log(mentores(mentor4));
+ console.log(mentores(mentor5));*/
+
+ function saludoCompleto(mentor){
+     return "HELLO" + " " + mentores(mentor)
+ }
+
+ console.log(saludoCompleto(mentor1));
+ console.log(saludoCompleto(mentor2));
+ console.log(saludoCompleto(mentor3));
+ console.log(saludoCompleto(mentor4));
+ console.log(saludoCompleto(mentor5));
