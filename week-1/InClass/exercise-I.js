@@ -1,7 +1,11 @@
-function age(edad, año, name) {
-  return "Mi nombre es " + name + " y nací en el año " + (año - edad) + ".";
+function añoDeNacimiento(age) {
+  return 2022 - age;
 }
 
-const result = age(28, 2022, "laeken");
+function datosCompletos(age, name) {
+  return (
+    "Mi nombre es " + name + " y nací en el año " + añoDeNacimiento(age) + "."
+  );
+}
 
-console.log(result);
+console.log(datosCompletos(28, "laeken"));
