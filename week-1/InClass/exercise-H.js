@@ -1,9 +1,9 @@
 function age(raiz, name, numero){
     
-    return "Hola! mi nombre es " + name + " y este programa calcula la raiz cuadrada de un numero." + "\n" + " Por ejemplo la raiz cuadrada de " + numero + " es " +raiz + "." ;
+    return "Hola! mi nombre es " + name + " y este programa calcula la raiz cuadrada de un numero." + "\n" + " Por ejemplo la raiz cuadrada de " + numero + " es " + (Math.sqrt(raiz)) + "." ;
 }
 
-const result = age (Math.sqrt(100), "laeken", 100)
+const result = age (100, "laeken", 100)
 
 
 console.log(result);
