@@ -8,7 +8,16 @@
 
 var name = "Daniel";
 var danielsRole = "mentor";
+function roleCheck (role){
+if(role === danielsRole){
+  return "Hi, I'm " + name+ "," + " I'm a mentor."
+}
+else {
+  return "Hi, I'm " + name+ "," + " I'm a student."
+}
+}
 
+console.log(roleCheck("mentor"));
 /* 
 EXPECTED RESULT
 ---------------

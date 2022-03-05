@@ -9,8 +9,10 @@
 */
 
 function containsCode(sentence) {
-
+   { return sentence.includes("code")
+} 
 }
+
 
 /* 
 DO NOT EDIT BELOW THIS LINE
@@ -19,9 +21,9 @@ var sentence1 = "code your future";
 var sentence2 = "draw your future";
 var sentence3 = "design your future";
 
-console.log("'" + sentence1 + "': " + containsCode(sentence1))
-console.log("'" + sentence2 + "': " + containsCode(sentence2))
-console.log("'" + sentence3 + "': " + containsCode(sentence3))
+console.log("'" + sentence1 + "': " + containsCode("code your future"))
+console.log("'" + sentence2 + "': " + containsCode("draw your future"))
+console.log("'" + sentence3 + "': " + containsCode("design your future"))
 
     /* 
     EXPECTED RESULT
