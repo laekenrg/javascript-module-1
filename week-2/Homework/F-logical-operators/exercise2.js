@@ -8,7 +8,7 @@
 function isNegative(negativeNumb) { if
  (negativeNumb < 0) {
    return true
- } else { (negativeNumb > 0)}
+ } 
  return false
 }
 
@@ -24,9 +24,7 @@ function isShortName (name) {
   if( nameLength<= 6) {
     return true
   }
-  else {
-    return false
-  }
+
 }
 
 function startsWithD (nameInitial) {
