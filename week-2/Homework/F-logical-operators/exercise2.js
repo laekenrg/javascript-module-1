@@ -5,38 +5,35 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative(negativeNumb) { if
- (negativeNumb < 0) {
-   return true
- } 
- return false
+function isNegative(negativeNumb) {
+  if (negativeNumb < 0) {
+    return true;
+  }
+  return false;
 }
 
-function isBetween5and10(number){
-  if (number<= 10 && number>= 5)
-  {return true}
-  else{
-    return false
+function isBetween5and10(number) {
+  if (number <= 10 && number >= 5) {
+    return true;
+  } else {
+    return false;
   }
 }
-function isShortName (name) {
+function isShortName(name) {
   const nameLength = name.length;
-  if( nameLength<= 6) {
-    return true
+  if (nameLength <= 6) {
+    return true;
   }
-
 }
 
-function startsWithD (nameInitial) {
+function startsWithD(nameInitial) {
   const firstLetter = nameInitial.charAt(0);
-  if(firstLetter === "D") {
-    return true
-  }
-  else {
-    return false
+  if (firstLetter === "D") {
+    return true;
+  } else {
+    return false;
   }
 }
-
 
 /* 
   DO NOT EDIT BELOW THIS LINE

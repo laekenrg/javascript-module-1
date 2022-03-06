@@ -7,13 +7,11 @@
 */
 
 function negativeOrPositive(number) {
-if(number >= 0) {
-  return "Positive";
-}
-else {
-  return "Negative";
-}
-
+  if (number >= 0) {
+    return "Positive";
+  } else {
+    return "Negative";
+  }
 }
 
 /* 
