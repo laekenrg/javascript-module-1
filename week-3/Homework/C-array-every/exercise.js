@@ -5,6 +5,7 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
+
 var groupIsOnlyStudents; // complete this statement
 
 if (groupIsOnlyStudents) {
